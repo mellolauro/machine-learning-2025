@@ -49,8 +49,8 @@ from sklearn import naive_bayes
 from sklearn import linear_model
 
 arvore = tree.DecisionTreeClassifier(random_state=42,
-                                     min_samples_leaf=6,
-                                     )
+                                    min_samples_leaf=6,
+                                    )
 arvore.fit(X, y)
 
 naive = naive_bayes.GaussianNB()
