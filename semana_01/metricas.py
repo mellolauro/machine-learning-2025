@@ -128,3 +128,4 @@ pd.Series({"model": reg, "features":features}).to_pickle("model_feliz.pkl")
 
 
 df_analise.columns
+# %%
